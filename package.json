@@ -1,13 +1,11 @@
 {
-  "version": "0.0.1",
+  "name": "dofus-scraper",
+  "version": "1.0.0",
+  "description": "Dofus Treasure Hunt scraper",
   "main": "scraper.js",
   "dependencies": {
-    "cheerio": "latest",
-    "request": "latest",
-    "sqlite3": "latest"
-  },
-  "keywords": [
-    "scraper",
-    "morph"
-  ]
+    "request": "^2.88.2",
+    "cheerio": "^1.0.0-rc.12",
+    "sqlite3": "^5.1.6"
+  }
 }
